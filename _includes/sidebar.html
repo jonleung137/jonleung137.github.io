@@ -1,37 +1,10 @@
-<ol class="sidebar">
-  <li class="section-title">About</li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="section-title">About</li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="section-title">About</li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="section-title">About</li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="section-title">About</li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-  <li class="post-title">
-    <a href="/why">Why</a>
-  </li>
-</ol>
+<ul>
+{% for section in site.data.header %}
+  {% for sectionKV in section %}
+    <li class="section-title">{{ sectionKV[0] }}</li>
+    {% for post in sectionKV[1] %}
+      <li class="post-title">{{ post }}</li>
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+</ul>
