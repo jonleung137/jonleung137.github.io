@@ -1,10 +1,46 @@
-<ul class="Sidebar">
-  {% for section in site.data.sidebar %}
-    {% for sectionKV in section %}
-      <li class="Sidebar_item Sidebar_section-title">{{ sectionKV[0] }}</li>
-      {% for post in sectionKV[1] %}
-        <li class="Sidebar_post-title">{{ post }}</li>
-      {% endfor %}
+<div class="Sidebar">
+
+  <div class="Section">
+    <h2 class="Section_title">Writing</h2>
+    {% for section in site.data.sidebar.Writing %}
+    {% for sectionTitleAndPosts in section %}
+    <div class="Subsection">
+      <h4 class="Subsection_title">{{ sectionTitleAndPosts[0] }}</h4>
+      <ul>
+        {% for post in sectionTitleAndPosts[1] %}
+        <li class="Subsection_post-title">
+          <a href="/{{ post | replace: ' ', '-'}}">{{ post }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     {% endfor %}
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </div>
+
+  <div class="Section">
+    <h2 class="Section_title">Career</h2>
+    <ul>
+      {% for post in site.data.sidebar.Career %}
+      <li class="Section_post-title">{{ post }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="Section">
+    <h2 class="Section_title">Making</h2>
+    {% for section in site.data.sidebar.Making %}
+    {% for sectionTitleAndPosts in section %}
+    <div class="Subsection">
+      <h4 class="Subsection_title">{{ sectionTitleAndPosts[0] }}</h4>
+      <ul>
+        {% for post in sectionTitleAndPosts[1] %}
+        <li class="Subsection_post-title">{{ post }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+    {% endfor %}
+  </div>
+
+</div>

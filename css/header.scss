@@ -2,7 +2,10 @@
 ---
 
 .Header {
+  display: none;
   font-family: "Proxima Nova";
 }
 
-
+.Header_link {
+  display: inline-block;
+}

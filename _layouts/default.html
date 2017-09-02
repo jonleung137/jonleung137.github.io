@@ -6,16 +6,15 @@
   </head>
 
   <body>
-    <div class="header">
-      {% include header.html %}
+    <div class="l-container-wrap">
+      <div class="l-container">
+        {% include header.html %}
+        {% include sidebar.html %}
+        <main class="main">
+          {{ content }}
+        </main>
+      </div>
     </div>
-    <div class="sidebar">
-      {% include sidebar.html %}
-    </div>
-    <main class="main">
-      {{ content }}
-    </main>
-
   </body>
 
 </html>
