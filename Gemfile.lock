@@ -32,8 +32,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     method_source (0.8.2)
-    minima (2.1.1)
-      jekyll (~> 3.3)
     octopress-debugger (1.0.2)
       jekyll
       pry-byebug
@@ -65,7 +63,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.5.2)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
   octopress-debugger
   tzinfo-data
 

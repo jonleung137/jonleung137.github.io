@@ -1,10 +1,10 @@
-<ul>
-{% for section in site.data.header %}
-  {% for sectionKV in section %}
-    <li class="section-title">{{ sectionKV[0] }}</li>
-    {% for post in sectionKV[1] %}
-      <li class="post-title">{{ post }}</li>
+<ul class="Sidebar">
+  {% for section in site.data.sidebar %}
+    {% for sectionKV in section %}
+      <li class="Sidebar_item Sidebar_section-title">{{ sectionKV[0] }}</li>
+      {% for post in sectionKV[1] %}
+        <li class="Sidebar_post-title">{{ post }}</li>
+      {% endfor %}
     {% endfor %}
   {% endfor %}
-{% endfor %}
 </ul>

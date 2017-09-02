@@ -26,9 +26,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+sass:
+  sass_dir: _sass
+  style: :compressed
 plugins:
   - jekyll-feed
+  - octopress-debugger
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -42,5 +45,3 @@ exclude: [node_modules, gulpfile.js]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-gems:
-  - octopress-debugger
