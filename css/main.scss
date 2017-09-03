@@ -5,6 +5,8 @@
 
 $main-color: #545427;
 $read-color: #999999;
+$total-width: 750px;
+$sidebar-width: 275px;
 
 body {
   color: $main-color;
@@ -20,18 +22,27 @@ a:visited {
   color: $read-color;
 }
 
-
-
 // LAYOUT
 
 .l-container-wrap {
-  max-width: 700px;
+  max-width: $total-width;
   margin-top: 5vh;
   margin-left: auto;
   margin-right: auto;
 }
 
 .l-container {
-  margin-left: 30px;
 }
 
+.l-sidebar {
+  position: absolute;
+  width: $sidebar-width;
+  display: inline-block;
+  height: 100%;
+}
+
+.l-article {
+  margin-left: $sidebar-width;
+  max-width: $total-width - $sidebar-width;
+  display: inline-block;
+}

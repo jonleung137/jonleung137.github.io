@@ -3,6 +3,7 @@
 
 .Sidebar {
   font-family: "Proxima Nova";
+  display: inline-block;
 }
 
 .Section {
@@ -20,11 +21,13 @@
   }
 
   .Subsection_title {
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 10px;
   }
 
   .Section_post-title, .Subsection_post-title {
+    font-size: 14px;
     margin-left: 15px;
     margin-bottom: 8px;
   }
