@@ -27,7 +27,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 sass:
-  sass_dir: _sass
+  sass_dir: css
   style: :nested
 plugins:
   - jekyll-feed

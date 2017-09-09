@@ -8,13 +8,16 @@
   <body>
     <div class="l-container-wrap">
       <div class="l-container">
-        <div class="l-sidebar">
-          {% include sidebar.html %}
+        <div class=l-header>
+          {% include header.html %}
         </div>
         <div class="l-article">
           <div class="Article">
             {{ content }}
           </div>
+        </div>
+        <div class="l-sidebar">
+          {% include sidebar.html %}
         </div>
       </div>
     </div>
