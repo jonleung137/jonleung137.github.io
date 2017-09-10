@@ -4,7 +4,7 @@ title:  "Relationships from First Principles"
 date:   2017-08-28 09:30:19 -0400
 ---
 
-# Relationships from First Principles
+# Relationships from First Principless
 
 Have you experienced hanging out with a friend who you thought you knew really well, but then when they meet someone new, and that new person asks your friend questions, you find yourself learning things about your friend that you never knew?
 
