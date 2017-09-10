@@ -1,10 +1,18 @@
 ---
 layout: default
-title:  "Hallow"
+title:  Hi
 date:   2017-08-28 09:30:19 -0400
 permalink: //
 ---
 
-# Hello!
+# Hi!
 
-Welcome 
+My name is Jonathan Leung.
+
+I come alive through creating and connecting with and empowering others.
+
+On this site, you can find out what I care about through my writing, read about my career, and see some of the things I've made.
+
+Cheers!
+<br>
+Jonathan
