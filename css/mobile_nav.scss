@@ -1,0 +1,25 @@
+---
+---
+
+@import 'shared';
+
+.MobileNav {
+}
+
+.MobileNav_links {
+}
+
+.MobileNav_link {
+  display: inline-block;
+  margin-right: 18px;
+
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  letter-spacing: 1.5px;
+
+  text-transform: uppercase;
+
+  a:visited {
+    color: $main-color;
+  }
+}

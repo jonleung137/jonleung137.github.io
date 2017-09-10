@@ -1,7 +1,7 @@
 <div class="Sidebar">
 
   <div class="Section">
-    <h2 class="Section_title">Writing</h2>
+    <h2 class="Section_title" id="writing">Writing</h2>
     {% for section in site.data.sidebar.Writing %}
     {% for sectionTitleAndPosts in section %}
     <div class="Subsection">
@@ -19,23 +19,27 @@
   </div>
 
   <div class="Section">
-    <h2 class="Section_title">Career</h2>
+    <h2 class="Section_title" id="career">Career</h2>
     <ul>
       {% for post in site.data.sidebar.Career %}
-      <li class="Section_post-title">{{ post }}</li>
+      <li class="Subsection_post-title">
+        <a href="/{{ post | replace: ' ', '-'}}">{{ post }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
 
   <div class="Section">
-    <h2 class="Section_title">Making</h2>
+    <h2 class="Section_title" id="making">Making</h2>
     {% for section in site.data.sidebar.Making %}
     {% for sectionTitleAndPosts in section %}
     <div class="Subsection">
       <h4 class="Subsection_title">{{ sectionTitleAndPosts[0] }}</h4>
       <ul>
         {% for post in sectionTitleAndPosts[1] %}
-        <li class="Subsection_post-title">{{ post }}</li>
+        <li class="Subsection_post-title">
+          <a href="/{{ post | replace: ' ', '-'}}">{{ post }}</a>
+        </li>
         {% endfor %}
       </ul>
     </div>
