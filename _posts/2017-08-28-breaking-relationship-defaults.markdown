@@ -1,10 +1,18 @@
 ---
 layout: default
-title:  "Relationships from First Principles"
+title:  Breaking Relationship Defaults
 date:   2017-08-28 09:30:19 -0400
 ---
 
-# Relationships from First Principless
+# The bigger picture of polyamory
+I have been polyamorous for most of my adult life. It’s something I grew into gradually, through a lot of questioning and curiosity and discussion, and it’s something that feels like a significant part of me.
+
+A friend asked me recently if polyamory is a personality trait for me, or if it’s something that’s a trait of the relationship, and could change from one relationship to another. It’s actually a question I’ve gotten often since splitting up from my primary partner a year ago.
+
+And while my answer has always stayed the same — that for me, it’s very much a personality trait — I’ve realized recently that this answer doesn’t really paint the whole picture. It’s true that polyamory is something I feel strongly about, to my core, but it’s actually a small part of a much larger life philosophy which has slowly been showing itself to me in recent years.
+I love exploring the way friendships develop. When I meet someone new, I never quite know what form that friendship will take — in the beginning, the possibilities are limitless, and that’s simultaneously an exhilarating and remarkably comforting feeling. I love watching the shape of the friendship evolve and change and discover itself.
+
+# Breaking Relationship Defaults
 
 Have you experienced hanging out with a friend who you thought you knew really well, but then when they meet someone new, and that new person asks your friend questions, you find yourself learning things about your friend that you never knew?
 

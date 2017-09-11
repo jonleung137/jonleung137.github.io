@@ -2,17 +2,29 @@
 ---
 
 .Article {
-  h1 {
+  font-family: georgia, serif;
+  letter-spacing: -0.063px;
+  line-height: 1.58;
+  font-weight: 400;
+
+  h1, h2 {
     font-family: "Proxima Nova";
-    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 25px;
   }
 
   p {
-    font-family: 'Source Serif Pro', serif;
-    margin-bottom: 10px;
-    line-height: 22px;
-    font-size: 16px;
+    margin-bottom: 29px;
+    font-size: 21px;
   }
 }
