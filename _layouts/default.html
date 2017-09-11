@@ -16,14 +16,16 @@
             {% include mobile_nav.html %}
           </div>
         </header>
-        <article class="l-article">
-          <div class="Article">
-            {{ content }}
-          </div>
-        </article>
-        <aside class="l-sidebar">
-          {% include sidebar.html %}
-        </aside>
+        <div class="l-main">
+          <article class="l-article">
+            <div class="Article">
+              {{ content }}
+            </div>
+          </article>
+          <aside class="l-sidebar">
+            {% include sidebar.html %}
+          </aside>
+        </div>
       </div>
     </div>
   </body>
