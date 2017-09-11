@@ -9,7 +9,7 @@
       <ul>
         {% for post in sectionTitleAndPosts[1] %}
         <li class="Subsection_post-title">
-          <a href="/{{ post | replace: ' ', '-'}}">{{ post }}</a>
+          <a href="/{{ post | downcase | replace: ' ', '-'}}">{{ post }}</a>
         </li>
         {% endfor %}
       </ul>
@@ -23,7 +23,7 @@
     <ul>
       {% for post in site.data.sidebar.Career %}
       <li class="Subsection_post-title">
-        <a href="/{{ post | replace: ' ', '-'}}">{{ post }}</a>
+        <a href="/{{ post | downcase | replace: ' ', '-'}}">{{ post }}</a>
       </li>
       {% endfor %}
       <li class="Subsection_post-title">
@@ -41,7 +41,7 @@
       <ul>
         {% for post in sectionTitleAndPosts[1] %}
         <li class="Subsection_post-title">
-          <a href="/{{ post | replace: ' ', '-'}}">{{ post }}</a>
+          <a href="/{{ post | downcase | replace: ' ', '-'}}">{{ post }}</a>
         </li>
         {% endfor %}
       </ul>
