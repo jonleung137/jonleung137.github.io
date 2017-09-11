@@ -1,6 +1,8 @@
 ---
 ---
 
+@import 'shared';
+
 .Article {
   font-family: georgia, serif;
 
@@ -30,5 +32,27 @@
     margin-bottom: 29px;
     font-size: 20px;
     line-height: 1.58;
+  }
+}
+
+@media (max-width: $mobile-max-width) {
+  .Article {
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.58;
+    }
   }
 }

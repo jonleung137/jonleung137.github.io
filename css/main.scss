@@ -27,8 +27,6 @@ a:visited {
 
 // LAYOUT
 
-$mobile-max-width: 700px;
-
 @media (max-width: $mobile-max-width) {
   .l-logo {
     margin-bottom: 10px;
@@ -53,7 +51,7 @@ $mobile-max-width: 700px;
     position: -ms-sticky;
     position: -o-sticky;
     position: sticky;
-    top: 0px; // required as well.
+    top: -1px; // required as well.
   }
 
   .l-article {
@@ -63,6 +61,7 @@ $mobile-max-width: 700px;
 
   .l-sidebar {
     margin-top: 50px;
+    margin-bottom: 80vh;
   }
 
 }
