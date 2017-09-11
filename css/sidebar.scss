@@ -1,26 +1,53 @@
 ---
 ---
 
+@import 'shared';
+
 .Sidebar {
   font-family: "Proxima Nova";
   display: inline-block;
 }
 
 .Section {
-  margin-bottom: 45px;
+  margin-bottom: 55px;
+}
+
+.Section_title {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Section_title:before {
+  display: block;
+  content: "";
+  height: 60px;
+  margin: -60px 0 0;
+}
+
+.Subsection {
+  margin-bottom: 15px;
+}
+
+.Subsection_title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Section_post-title, .Subsection_post-title {
+  font-size: 15px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: $mobile-max-width) {
 
   .Section_title {
-    font-size: 23px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-
-  .Section_title:before {
-    display: block;
-    content: "";
-    height: 60px;
-    margin: -60px 0 0;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
 
   .Subsection {
@@ -28,15 +55,14 @@
   }
 
   .Subsection_title {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
 
   .Section_post-title, .Subsection_post-title {
-    font-size: 14px;
-    margin-left: 15px;
-    margin-bottom: 8px;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-bottom: 12px;
   }
 }

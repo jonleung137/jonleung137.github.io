@@ -36,8 +36,8 @@
 }
 
 @media (max-width: $mobile-max-width) {
+  
   .Article {
-
     h1 {
       font-size: 30px;
     }
@@ -55,4 +55,5 @@
       line-height: 1.58;
     }
   }
+  
 }
