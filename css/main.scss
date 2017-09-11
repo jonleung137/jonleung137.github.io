@@ -45,13 +45,15 @@ $mobile-max-width: 700px;
   }
 
   .l-mobile-nav {
-    // background-color: yellow;
     background: white;
     padding-top: 18px;
     padding-bottom: 18px;
-    position: -webkit-sticky;  // required for Safari
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     position: sticky;
-    top: 0; // required as well.
+    top: 0px; // required as well.
   }
 
   .l-article {
