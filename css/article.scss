@@ -6,6 +6,10 @@
 .Article {
   font-family: georgia, serif;
 
+  a:visited {
+    color: $link-color;
+  }
+
   h1, h2, h3, h4, h5 {
     font-family: "Proxima Nova";
   }
@@ -13,19 +17,19 @@
   h1 {
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   h3 {
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   p {

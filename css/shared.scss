@@ -6,3 +6,5 @@ $mobile-max-width: 700px;
 
 $main-color: rgb(84, 84, 84); //#545427;
 $read-color: #999999;
+$link-color: rgb(169,  49,  33  );
+$link-visited-color: lighten($link-color, 38%);

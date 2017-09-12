@@ -10,12 +10,12 @@ body {
 }
 
 a {
-  color: $main-color;
+  color: $link-color;
   text-decoration: none;
 }
 
 a:visited {
-  color: $read-color;
+  color: $link-visited-color;
 }
 
 // MOBILE
