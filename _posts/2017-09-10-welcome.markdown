@@ -7,12 +7,10 @@ permalink: //
 
 # Hi!
 
-My name is Jonathan Leung.
+This is a draft of my new website. It will soon be hosted at [jonl.org](http://jonl.org).
 
-I come alive through creating, connecting deeply with people, and empowering others.
+I'd love your feedback!
 
-On this site, you can find out about the things I care about.
-
-Cheers!
+Much gratitude,
 <br>
 Jonathan
